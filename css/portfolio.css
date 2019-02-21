@@ -1,0 +1,10 @@
+/* this is for box sizing */
+#contentbox {
+
+    width: 960px;
+    height: auto;
+    border: 5px solid grey;
+    margin: 5px;
+    padding: 5px;
+
+}
