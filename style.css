@@ -1,9 +1,10 @@
 /* Affects All Elements */
 body {
   background:lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Nav Bar */
+/* Nav Bar. I'm really happy with how I figured out how to make the nav bar. This and the content box for the about seciton are the things I am happiest with.*/
 ul {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ ul {
     float: right;
     border-left:1px solid #bbb;
     border-right:1px solid #bbb;
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
   }
   #name {
     float:left;
@@ -24,6 +25,7 @@ ul {
     color: white;
     background-color: dodgerblue;
     margin-left: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   #contact {
@@ -38,7 +40,7 @@ ul {
     text-decoration: none;
   }
 
-/* Content */
+/* About Section Content. */
 
 .contentbox {
 
@@ -51,6 +53,7 @@ ul {
   height: auto;
   padding-top: 3%;
   padding-bottom: 3%;
+  line-height: 1.6;
    
 }
 
@@ -61,6 +64,7 @@ h1 {
   padding-left: 0;
   border-bottom: 1px solid grey;
   text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -77,20 +81,85 @@ h1 {
 #davefacts {
 
   padding: 3%;
+  
 
 }
+/* Gallery for portfolio. I wasn't able to make the things float correctly within the 960px box like I did with the about section so I cheated a little bit and just extended the bottom padding so it would extend past my photos. */
+.gallerybox{
 
+  width: 960px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 450px;
+}
+.gallery {
+  
+  float: left;
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 3%;
+  background-clip: content-box;
+}
+/* Contact Form--I was not able to figure out how to link somewhere to store the information but this form should theoretically be able to grab information.*/
+.contactbox {
+  width: 960px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  padding-top: 3%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px; 
+}
+
+input[type=submit]:hover {
+  background-color: dodgerblue;
+}
+
+#messagebox {
+  height: 150px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Footer. This was probably the easiest thing to make. */
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #333;
-  color: #bbb;
+  color: white;
   text-align: center;
   vertical-align: text-bottom;
   padding-top: 40px;
   padding-bottom: 10px;
-  border-top: 10px solid dodgerblue;
+  border-top: 8px solid dodgerblue;
+  font-size: small;
 
 }
