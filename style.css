@@ -1,13 +1,96 @@
-/* nav bar */
+/* Affects All Elements */
+body {
+  background:lightgrey;
+}
 
+/* Nav Bar */
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+    border-left:1px solid #bbb;
+    border-right:1px solid #bbb;
+    background-color: #333;
+  }
+  #name {
+    float:left;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    background-color: dodgerblue;
+    margin-left: 150px;
+  }
+  
+  #contact {
+      margin-right: 150px;
+  }
 
-/* this is for body box sizing */
-#contentbox {
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+  }
 
-    width: 960px;
-    height: auto;
-    border: 5px solid grey;
-    margin: 5px;
-    padding: 5px;
+/* Content */
+
+.contentbox {
+
+  width: 960px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+   
+}
+
+h1 {
+  font-size: 30px;
+  margin: 5px 3% 0 3%;
+  padding-bottom: 2%;
+  padding-left: 0;
+  border-bottom: 1px solid grey;
+  text-align: left;
+
+}
+
+#davedrinks {
+  
+  float: left;
+  padding-left: 3%;
+  padding-right: 1%;
+  padding-top: 3%;
+  background-clip: content-box;
+  
+}
+
+#davefacts {
+
+  padding: 3%;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #bbb;
+  text-align: center;
+  vertical-align: text-bottom;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-top: 10px solid dodgerblue;
 
 }
