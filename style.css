@@ -4,7 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Nav Bar. I'm really happy with how I figured out how to make the nav bar. This and the content box for the about seciton are the things I am happiest with.*/
+/* Nav Bar. I'm really happy with how I figured out how to make the nav bar. This and the content box for the about seciton are the things I am happiest with. It doesn't scale for different screen sizes *yet*.*/
 ul {
     margin: 0;
     padding: 0;
@@ -104,6 +104,8 @@ h1 {
   padding-right: 1%;
   padding-top: 3%;
   background-clip: content-box;
+  position: relative;
+
 }
 /* Contact Form--I was not able to figure out how to link somewhere to store the information but this form should theoretically be able to grab information.*/
 .contactbox {
