@@ -132,7 +132,7 @@ h2 {
   padding-bottom: 5px;
   color: white;
 }
-/* Contact Form--I was not able to figure out how to link somewhere to store the information but this form should theoretically be able to grab information. I also don't know why the text only goes to the minddle of the box and straight left instead of filling from top to bottom.*/
+/* Contact Form--I was not able to figure out how to link somewhere to store the information but this form should theoretically be able to grab information. I also don't know why the text only goes to the minddle of the box and straight right instead of filling from top to bottom.*/
 .contactbox {
   width: 960px;
   background-color: #ffffff;
